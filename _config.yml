@@ -1,6 +1,6 @@
 # main text of home
 name: Anran Zhou
-bio: wanna to be a Full Stack Engineer
+bio: On the Road to be a Full Stack Engineer
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://anranzhou.github.io/Blog/
+url: https://anranzhou.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
