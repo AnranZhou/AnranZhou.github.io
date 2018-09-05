@@ -4,43 +4,56 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<b>I am actively looking for Full-Time opportunities of Web Development!</b>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>A short Introduction</h2>
+<p>
+This is Anran Zhou. Currently I'm a master of Computer Networking student at <a href="https://en.wikipedia.org/wiki/North_Carolina_State_University">North Carolina State University</a>. I am enthusiastic about Web development. I am familiar with many front-end and back-end frameworks like React, Vue.js, Django, Express, Ruby on Rails, etc. I also have some experiences of using relational and non-relational databases like MySQL, PostgreSQL, MongoDB, etc. Besides that, I also use the cache(Redis) and container(Docker) technologies in my project. You can find more information about the Tech Stacks that I use in <a href="anranzhou.com/projects">Project</a>. All those projects are deployed on the AWS or Heroku. You can take a look and contact me if you have any suggestions.
+</p>
 
-<h2>Skills</h2>
 
+<h2>Programming Languages</h2>
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
 	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>JavaScript</li>
+	<li>Ruby</li>
+	<li>C++</li>
+	<li>C</li>
+	<li>Bash</li>
+</ul>
+<h2>Web Frameworks & Technologies</h2>
+<ul class="skill-list">
+	<li>Django</li>
+	<li>Node.js</li>
+	<li>Express</li>
+	<li>Ruby on Rails</li>
+	<li>React</li>
+	<li>React-Router</li>
+	<li>Mobx</li>
+	<li>Vue.js</li>
+	<li>Vue Router</li>
+	<li>Vuex</li>
+	<li>Webpack</li>
+	<li>Bootstrap</li>
+	<li>jQuery</li>
+</ul>
+<h2>Databases & Cache & Message Broker</h2>
+<ul class="skill-list">
+	<li>MySQL</li>
+	<li>PostgreSQL</li>
+	<li>MongoDB</li>
+	<li>Memcached</li>
+	<li>Redis</li>
+	<li>Kafka</li>
+	<li>RabbitMQ</li>
 </ul>
 
 <h2>Projects</h2>
-
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://github.com/">1</a></li>
+	<li><a href="https://github.com/">2</a></li>
+	<li><a href="https://github.com/">3</a></li>
+	<li><a href="https://github.com/">4</a></li>
+	<li><a href="https://github.com/">5</a></li>
+	<li><a href="https://github.com/">6</a></li>
 </ul>
