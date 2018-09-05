@@ -8,11 +8,11 @@ layout: page
 
 <h2>A short Introduction</h2>
 <p>
-This is Anran Zhou. Currently I'm a master of Computer Networking student at <a href="https://en.wikipedia.org/wiki/North_Carolina_State_University">North Carolina State University</a>. I am enthusiastic about Web development. I am familiar with many front-end and back-end frameworks like React, Vue.js, Django, Express, Ruby on Rails, etc. I also have some experiences of using relational and non-relational databases like MySQL, PostgreSQL, MongoDB, etc. Besides that, I also use the cache(Redis) and container(Docker) technologies in my project. You can find more information about the Tech Stacks that I use in <a href="anranzhou.com/projects">Project</a>. All those projects are deployed on the AWS or Heroku. You can take a look and contact me if you have any suggestions.
+This is Anran Zhou. Currently I'm a master of Computer Networking student at <a href="https://en.wikipedia.org/wiki/North_Carolina_State_University">North Carolina State University</a>. I am enthusiastic about Web development. I am familiar with many front-end and back-end frameworks like React, Vue.js, Django, Express, Ruby on Rails, etc. I also have some experiences of using relational and non-relational databases like MySQL, PostgreSQL, MongoDB, etc. Besides that, I also use the cache(Redis) and container(Docker) technologies in my project. You can find more information about the Tech Stacks that I use in <a href="https://anranzhou.com/projects">Project</a>. All those projects are deployed on the AWS or Heroku. You can take a look and contact me if you have any suggestions.
 </p>
 
-
-<h2>Programming Languages</h2>
+<h2>Skills</h2>
+<h4>Programming Languages</h4>
 <ul class="skill-list">
 	<li>Python</li>
 	<li>JavaScript</li>
@@ -21,7 +21,7 @@ This is Anran Zhou. Currently I'm a master of Computer Networking student at <a 
 	<li>C</li>
 	<li>Bash</li>
 </ul>
-<h2>Web Frameworks & Technologies</h2>
+<h4>Web Frameworks & Technologies</h4>
 <ul class="skill-list">
 	<li>Django</li>
 	<li>Node.js</li>
@@ -37,7 +37,7 @@ This is Anran Zhou. Currently I'm a master of Computer Networking student at <a 
 	<li>Bootstrap</li>
 	<li>jQuery</li>
 </ul>
-<h2>Databases & Cache & Message Broker</h2>
+<h4>Databases & Cache & Message Broker</h4>
 <ul class="skill-list">
 	<li>MySQL</li>
 	<li>PostgreSQL</li>
