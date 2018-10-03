@@ -8,7 +8,7 @@ layout: page
 
 <h2>A short Introduction</h2>
 <p>
-This is Anran Zhou. Currently I'm a master of Computer Networking student at <a href="https://en.wikipedia.org/wiki/North_Carolina_State_University">North Carolina State University</a>. I am enthusiastic about Web development. I am familiar with many front-end and back-end frameworks like React, Vue.js, Django, Express, Ruby on Rails, etc. I also have some experiences of using relational and non-relational databases like MySQL, PostgreSQL, MongoDB, etc. Besides that, I also use the cache(Redis) and container(Docker) technologies in my project. You can find more information about the Tech Stacks that I use in <a href="https://anranzhou.com/projects">Project</a>. All those projects are deployed on the AWS or Heroku. You can take a look and contact me if you have any suggestions.
+This is Anran Zhou. Currently I'm a master of Computer Networking student at <a href="https://en.wikipedia.org/wiki/North_Carolina_State_University">North Carolina State University</a>. I am enthusiastic about Web development. I am familiar with many front-end and back-end frameworks like React, Vue.js, Django, Express, Ruby on Rails, etc. I also have some experiences of using relational and non-relational databases like MySQL, PostgreSQL, MongoDB, etc. Besides that, I also use the cache(Redis) and container(Docker) technologies in my project. You can find more information about the Tech Stacks that I use in <a href="https://github.com/AnranZhou/">Project</a>. All those projects are deployed on the AWS or Heroku. You can take a look and contact me if you have any suggestions.
 </p>
 
 <h2>Skills</h2>
@@ -50,10 +50,10 @@ This is Anran Zhou. Currently I'm a master of Computer Networking student at <a 
 
 <h2>Projects</h2>
 <ul>
-	<li><a href="https://github.com/">1</a></li>
-	<li><a href="https://github.com/">2</a></li>
-	<li><a href="https://github.com/">3</a></li>
-	<li><a href="https://github.com/">4</a></li>
-	<li><a href="https://github.com/">5</a></li>
-	<li><a href="https://github.com/">6</a></li>
+	<li><a href="https://github.com/AnranZhou/">1</a></li>
+	<li><a href="https://github.com/AnranZhou/">2</a></li>
+	<li><a href="https://github.com/AnranZhou/">3</a></li>
+	<li><a href="https://github.com/AnranZhou/">4</a></li>
+	<li><a href="https://github.com/AnranZhou/">5</a></li>
+	<li><a href="https://github.com/AnranZhou/">6</a></li>
 </ul>
