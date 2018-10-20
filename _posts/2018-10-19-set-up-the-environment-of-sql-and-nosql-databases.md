@@ -1,14 +1,11 @@
 ---
-title: "Set up the environment of SQL and NoSQL Databases"
 layout: post
+title: Set up the environment of SQL and NoSQL Databases
 date: 2018-10-19 18:47
-image: /assets/images/markdown.jpg
-headerImage: false
 tag:
 - MySQL
 - Postgresql
 - MongoDB
-star: true
 category: blog
 author: Anran Zhou
 description: This blog is used to record the setup of different databases.

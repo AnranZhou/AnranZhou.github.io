@@ -53,17 +53,24 @@ github: anranzhou
 # lanyrd: mylanyrd
 email: azhou6@ncsu.edu
 
+authors:
+    Anran Zhou:
+        name: Anran Zhou
+        bio: A programmer and gamer
+        external-image: false
+        picture: assets/images/profile.gif
+
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
 width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
+paginate: 5
+paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: false
+projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
@@ -93,6 +100,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-admin
+  - jekyll-paginate
 
 jekyll-mentions:
     base_url: https://github.com
