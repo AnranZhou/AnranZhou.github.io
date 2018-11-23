@@ -102,19 +102,116 @@ author: Anran Zhou
 	```
 
 ### 3. built-in data structures
-#### 3.1 list
+#### 3.1 list(Array in Python)
+* The elements in the lists can have diff data types.
+* list of lists can be used to represent two dimensional array.
+* Operations:
+	```Python
+		list_a = ['first']
+		# add
+		list_a.append('apppend')
+		list_a.insert(0, 'insert')
+
+		# del
+		list_a.pop()
+		list_a.pop(1)
+
+		# change
+		list_a[0] = 'change'
+
+		# retrieve
+		# retrieve an element
+		list_a[0]
+		list_a[-1]
+
+		# retrieve all elements
+		list_a[:]
+		list_a[:-1]
+	```
+
 
 #### 3.2 tuple
+tuple is a const list.
+* The elements in a tuple cannot be changed. 
+* How to define a tuple with only one element? (1,)
 
-#### 3.3 dict
+#### 3.3 set(hashset in Python)
+* Definition
+	* directly
+		`s = {1, 2, 3}`
+	* Using list
+		`s = set([1, 2, 3])`
+* No duplicate elements in the set
+* Operations:
+	```Python
+	s = set()
 
-#### 3.4 set
+	# basic operations
+	s.add("key")
+	s.remove("key")
+	if key in s:
+		print(key, "in the set s")
 
+	# logical operations
+	s1 = {1, 2}
+	s2 = {2, 3}
+	s1 & s2	# {2}
+	s1 | s2 # {1, 2, 3}
+	s1 ^ s2 # {1, 3}
+	```
 
+#### 3.4 dict(hashmap in Python)
+key in dict should be the unrevised type(like: string, int).
+* Operations
+	```Python
+		score = {'Michael': 95, 'Bob': 75, 'Tracy': 85}
+		# basic operations
+		# add
+		score['anran'] = 100
+		# revise
+		score['anran'] = 99
+		# delete
+		score.pop('anran')
+		# search key
+		if key in score:
+			print("key", key, "in the dict score.")
+		# search value
+		score.get('anran', -1)
+	```
 
 ### 4. Flow Control
 #### 4.1 conditional statement
-
-
-
+```Python
+	if <condition1>:
+		pass
+	elif <condition2>:
+		pass
+	elif <condition3>:
+		pass
+	else:
+		pass
+```
 #### 4.2 iterative statement
+* `for` loop
+Using `range` to generate numbers:
+```Python
+	sum = 0
+	for x in range(101):
+		sum = sum + x
+	print(sum)
+```
+
+* `while` loop
+```Python
+	sum = 0
+	n = 0
+	while n < 100:
+	    n = n + 1
+	    if n % 2 == 0: # 如果n是偶数，执行continue语句
+	        continue # continue语句会直接继续下一轮循环，后续的print()语句不会执行
+	    sum += n
+	print(sum)
+```
+
+`break` and `continue` can be used in the iterative statements.
+ 
