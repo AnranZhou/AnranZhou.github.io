@@ -70,9 +70,49 @@ author: Anran Zhou
 In higher-order functions, functions can be treated as a parameter.
 * map/reduce
 
+    Map and Reduce are built-in functions of Python.
+    * Examples:
+    ```Python
+        # map
+        # integer to strings
+        L = map(str, [1, 2, 3]) # return a map object, list(L) == ['1', '2', '3']
+        L = map(lambda x: x*x, [1, 2, 3]) # return a map object, list(L) == [1, 4, 9]
+        
+
+        # reduce
+        from functools import reduce
+        reduce(lambda x,y: x+y, [1, 2, 3]) # 1 + 2 + 3
+
+        # str to int
+        reduce(lambda x,y: x*10+y, map(lambda x: ord(x)-ord('0'), "12345"))
+    ```
+
 * filter
+    ```Python
+        def not_empty(s):
+            return s and s.strip()
+
+        list(filter(not_empty, ['A', '', 'B', None, 'C', '  ']))
+        # 结果: ['A', 'B', 'C']
+    ```
 
 * sorted
+    ```Python
+    #！ /usr/bin/env python3
+    # -*- coding: utf-8 -*-
+
+    L = ['bob', 'about', 'Zoo', 'Credit']
+    print(sorted(L))
+    # self-defined comparators
+    print(sorted(L, key=str.lower))
+
+    from operator import itemgetter
+    # sort complex data type
+    students = [('Bob', 75), ('Adam', 92), ('Bart', 66), ('Lisa', 88)]
+    print(sorted(students, key=itemgetter(0)))
+    print(sorted(students, key=lambda t: t[1]))
+    print(sorted(students, key=itemgetter(1), reverse=True))
+    ```
 
 #### 2.2 closure
 * Definition
@@ -93,8 +133,15 @@ Anonymous Function.
 ```
 
 #### 2.4 decorator
+* why do we use decorator?
+    
+    execute functions before or after a certain function.
 
 
 #### 2.5 partial function
-
-
+We can bind some parameters of a function when it has too many parameters.
+```Python
+    from functools import partial
+    int2 = partial(int, base=2)
+    int2('1000000') # 64
+```
