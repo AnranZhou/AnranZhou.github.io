@@ -5,6 +5,7 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <b>A software engineer at @AWS</b> 
+<br/>
 <b>A graduated student from wolfpack. Go Pack!</b>
 
 <h2>A short Introduction</h2>
